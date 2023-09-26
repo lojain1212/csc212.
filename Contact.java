@@ -107,10 +107,7 @@ public class Contact implements Comparable<String> {
      notes=input.nextLine();
       
  }
- public String toString() {
-        return "Contact{" + "contactName=" + contactName + ", PhoneNum=" + PhoneNum + ", email=" + email +
-                ", address=" + address + ", birthday=" + birthday + ", notes=" + notes + '}';
-    }
+
  
 }
 
